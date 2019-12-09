@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiaoYown/liprogram-cli.git"
+    "url": "git+https://github.com/xv-town/lilrogram-cli.git"
   },
   "keywords": [
     "lilprogram"
@@ -19,9 +19,9 @@
   "author": "xiaoYown",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xiaoYown/liprogram-cli/issues"
+    "url": "https://github.com/xv-town/lilrogram-cli/issues"
   },
-  "homepage": "https://github.com/xiaoYown/liprogram-cli#readme",
+  "homepage": "https://github.com/xv-town/lilrogram-cli#readme",
   "devDependencies": {
     "commander": "^4.0.1",
     "gulp": "^4.0.2",
