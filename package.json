@@ -1,5 +1,5 @@
 {
-  "name": "lilprogram-cli",
+  "name": "@xv-town/lilprogram-cli",
   "version": "1.0.0",
   "description": "lilprogram-cli, wx, wxss",
   "main": "main.js",
