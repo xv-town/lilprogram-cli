@@ -1,6 +1,6 @@
 {
-  "name": "@xv-town/lilprogram-cli",
-  "version": "1.0.0",
+  "name": "lilprogram-cli",
+  "version": "1.0.2",
   "description": "lilprogram-cli, wx, wxss",
   "main": "main.js",
   "bin": {
@@ -18,15 +18,12 @@
   ],
   "author": "xiaoYown",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xv-town/lilrogram-cli/issues"
-  },
-  "homepage": "https://github.com/xv-town/lilrogram-cli#readme",
   "devDependencies": {
     "commander": "^4.0.1",
     "gulp": "^4.0.2",
     "gulp-rename": "^2.0.0",
     "gulp-stylus": "^2.7.0",
     "gulp-watch": "^5.0.1"
-  }
+  },
+  "files": ["bin", "node_modules", "conf.base.js", "main.js", "package.json", "README.MD"]
 }
