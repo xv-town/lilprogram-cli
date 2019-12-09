@@ -15,8 +15,8 @@ try {
 }
 
 const styles = CONFIG.dirs.map(item => {
-  console.log('build ... ')
   item.fn = () => {
+    console.log('building ...')
     gulp.src(item.src)
       .pipe(stylus(CONFIG.options))
       .pipe(rename({
@@ -34,6 +34,7 @@ function compile () {
 gulp.task('build', compile);
 
 function watch () {
+  console.log('\nwatching ... \n')
   styles.forEach(item => {
     gulpWatch(item.src, item.fn);
   });
