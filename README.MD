@@ -6,17 +6,19 @@ npm install lilprogram-cli
 
 use
 
-build:
+#### build:
 
 ```
 lil-cli build(b)
 ```
 
-watch:
+#### watch:
 
 ```
 lil-cli watch(w)
 ```
+
+#### config
 
 conf.lil.js (default)
 
@@ -24,13 +26,12 @@ conf.lil.js (default)
 module.exports = {
   options: {
     rawDefine: {
-      blank: '#ffffff'
     }
   },
   dirs: [
     {
-      src: 'example/**/*.styl',
-      dist: 'example'
+      src: './**/*.styl',
+      dist: './'
     }
   ]
 };
