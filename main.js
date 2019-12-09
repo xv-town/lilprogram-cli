@@ -1,7 +1,7 @@
 const path = require('path');
 const gulp = require('gulp');
 const gulpWatch = require('gulp-watch');
-const stylus = require('gulp-stylus');
+const less = require('gulp-less');
 const rename = require('gulp-rename');
 
 const RUN_ACTIONS = ['build', 'watch']
@@ -18,7 +18,7 @@ const styles = CONFIG.dirs.map(item => {
   item.fn = () => {
     console.log('building ...')
     gulp.src(item.src)
-      .pipe(stylus(CONFIG.options))
+      .pipe(less(CONFIG.options))
       .pipe(rename({
         extname: ".wxss"
       }))

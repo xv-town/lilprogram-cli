@@ -1,11 +1,11 @@
 module.exports = {
   options: {
-    rawDefine: {
+    globalVars: {
     }
   },
   dirs: [
     {
-      src: './**/*.styl',
+      src: './**/*.less',
       dist: './'
     }
   ]
