@@ -1,4 +1,4 @@
-简单将小程序项目下的 styl 文件转换成 wxss
+简单将小程序项目下的 less 文件转换成 wxss
 
 install
 
@@ -32,7 +32,7 @@ module.exports = {
   },
   dirs: [
     {
-      src: './**/*.styl',
+      src: './**/*.less',
       dist: './'
     }
   ]
